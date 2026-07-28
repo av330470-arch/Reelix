@@ -1,3 +1,23 @@
-- name: Ensure Android & Flutter Project Files
-  run: |
-    flutter create . --project-name instagram_reels_clone --platforms=android --org com.example.instagram_reels --overwrite
+name: instagram_reels_clone
+description: Production-ready Instagram Reels clone with Supabase Auth, DM Realtime Chat, Audio/Video Calling, Multi-Language, and AdMob Ads.
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.3.4
+  video_player: ^2.8.2
+  google_mobile_ads: ^5.0.0
+  image_picker: ^1.0.7
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
