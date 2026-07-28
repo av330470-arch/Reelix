@@ -1,0 +1,34 @@
+name: instagram_reels_clone
+description: "Production-ready Instagram Reels clone with Supabase Auth, DM Realtime Chat, Audio/Video Calling, Multi-Language, and AdMob Ads."
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase Flutter SDK for Auth, Realtime Database, and Storage
+  supabase_flutter: ^2.3.4
+
+  # Video playback engine with loop mode support
+  video_player: ^2.8.2
+
+  # Google Mobile Ads for in-feed AdMob Native Ads
+  google_mobile_ads: ^5.0.0
+
+  # Image / Video picker for upload reel functionality
+  image_picker: ^1.0.7
+
+  # Cupertino icons for iOS / Instagram style icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
