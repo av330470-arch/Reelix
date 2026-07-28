@@ -28,9 +28,9 @@ jobs:
           channel: 'stable'
           cache: true
 
-      - name: Ensure Android Embedding V2 Files
+      - name: Ensure Android Platform Files
         run: |
-          flutter create . --platforms=android --org com.example.instagram_reels
+          flutter create . --project-name instagram_reels_clone --platforms=android --org com.example.instagram_reels
 
       - name: Get Flutter Dependencies
         run: flutter pub get
